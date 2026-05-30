@@ -692,7 +692,6 @@ digitalData.page.pageInfo.pageName = pageName;
 {
   "@context": "https://schema.org",
   "@graph": [
-
     {
       "@type": "Organization",
       "@id": "https://www.lmtcontinental.com/#organization",
@@ -711,13 +710,6 @@ digitalData.page.pageInfo.pageName = pageName;
         "contactType": "customer support",
         "availableLanguage": ["id", "en"],
         "areaServed": "ID"
-      },
-      "aggregateRating": {
-        "@type": "AggregateRating",
-        "ratingValue": "4.9",
-        "ratingCount": "954638",
-        "bestRating": "5",
-        "worstRating": "1"
       }
     },
 
@@ -753,7 +745,7 @@ digitalData.page.pageInfo.pageName = pageName;
       "image": [
         "https://ik.imagekit.io/ctoqfgj0a/seojoganteng.jpg"
       ],
-      "description": "Slot777 menghadirkan update link situs Slot Gacor malam ini dengan akses cepat, permainan populer, dan peluang menang lebih besar untuk menemani pengalaman bermain yang seru.",
+      "description": "Slot777 menghadirkan update link situs Slot Gacor malam ini dengan akses cepat, permainan populer, dan peluang menang lebih besar.",
       "brand": {
         "@type": "Brand",
         "name": "Demo"
@@ -797,44 +789,29 @@ digitalData.page.pageInfo.pageName = pageName;
         }
       ],
       "offers": {
-  "@type": "Offer",
-  "url": "https://www.lmtcontinental.com/",
-  "priceCurrency": "IDR",
-  "price": "0",
-  "availability": "https://schema.org/InStock",
-  "shippingDetails": {
-    "@type": "OfferShippingDetails",
-    "shippingRate": {
-      "@type": "MonetaryAmount",
-      "value": "0",
-      "currency": "IDR"
-    },
-    "shippingDestination": {
-      "@type": "DefinedRegion",
-      "addressCountry": "ID"
-    },
-    "deliveryTime": {
-      "@type": "ShippingDeliveryTime",
-      "handlingTime": {
-        "@type": "QuantitativeValue",
-        "minValue": 0,
-        "maxValue": 0,
-        "unitCode": "DAY"
-      },
-      "transitTime": {
-        "@type": "QuantitativeValue",
-        "minValue": 0,
-        "maxValue": 0,
-        "unitCode": "DAY"
+        "@type": "Offer",
+        "url": "https://www.lmtcontinental.com/",
+        "priceCurrency": "IDR",
+        "price": "0",
+        "availability": "https://schema.org/InStock",
+        "shippingDetails": {
+          "@type": "OfferShippingDetails",
+          "shippingRate": {
+            "@type": "MonetaryAmount",
+            "value": "0",
+            "currency": "IDR"
+          },
+          "shippingDestination": {
+            "@type": "DefinedRegion",
+            "addressCountry": "ID"
+          }
+        },
+        "hasMerchantReturnPolicy": {
+          "@type": "MerchantReturnPolicy",
+          "applicableCountry": "ID",
+          "returnPolicyCategory": "https://schema.org/MerchantReturnNotPermitted"
+        }
       }
-    }
-  },
-  "hasMerchantReturnPolicy": {
-    "@type": "MerchantReturnPolicy",
-    "applicableCountry": "ID",
-    "returnPolicyCategory": "https://schema.org/MerchantReturnNotPermitted"
-  }
-}
     },
 
     {
@@ -862,29 +839,31 @@ digitalData.page.pageInfo.pageName = pageName;
               "priceCurrency": "IDR",
               "availability": "https://schema.org/InStock",
               "url": "https://www.lmtcontinental.com/demo-slot"
-         }
+            }
+          }
         },
         {
           "@type": "ListItem",
           "position": 2,
           "item": {
-           "@type": "Product",
-           "name": "Slot Gacor",
-           "url": "https://www.lmtcontinental.com/slot-gacor",
-           "image": "https://ik.imagekit.io/ctoqfgj0a/seojoganteng.jpg",
-           "aggregateRating": {
-             "@type": "AggregateRating",
-             "ratingValue": "4.9",
-             "ratingCount": "954638",
-            "bestRating": "5",
-             "worstRating": "1"
-           },
-           "offers": {
-             "@type": "Offer",
-             "url": "https://www.lmtcontinental.com/slot-gacor",
-             "priceCurrency": "IDR",
-             "price": "0",
-             "availability": "https://schema.org/InStock"
+            "@type": "Product",
+            "name": "Slot Gacor",
+            "url": "https://www.lmtcontinental.com/slot-gacor",
+            "image": "https://ik.imagekit.io/ctoqfgj0a/seojoganteng.jpg",
+            "aggregateRating": {
+              "@type": "AggregateRating",
+              "ratingValue": "4.9",
+              "ratingCount": "954638",
+              "bestRating": "5",
+              "worstRating": "1"
+            },
+            "offers": {
+              "@type": "Offer",
+              "url": "https://www.lmtcontinental.com/slot-gacor",
+              "priceCurrency": "IDR",
+              "price": "0",
+              "availability": "https://schema.org/InStock"
+            }
           }
         },
         {
@@ -901,11 +880,11 @@ digitalData.page.pageInfo.pageName = pageName;
               "priceCurrency": "IDR",
               "price": "0",
               "availability": "https://schema.org/InStock"
+            }
           }
         }
       ]
     }
-
   ]
 }
 </script>
@@ -914,7 +893,6 @@ digitalData.page.pageInfo.pageName = pageName;
 {
   "@context": "https://schema.org",
   "@graph": [
-
     {
       "@type": "Organization",
       "@id": "https://www.lmtcontinental.com/#org",
@@ -922,7 +900,6 @@ digitalData.page.pageInfo.pageName = pageName;
       "url": "https://www.lmtcontinental.com/",
       "logo": "https://ik.imagekit.io/ctoqfgj0a/seojoganteng.jpg"
     },
-
     {
       "@type": "WebSite",
       "@id": "https://www.lmtcontinental.com/#website",
@@ -931,14 +908,8 @@ digitalData.page.pageInfo.pageName = pageName;
       "publisher": {
         "@id": "https://www.lmtcontinental.com/#org"
       },
-      "inLanguage": "id-ID",
-      "potentialAction": {
-        "@type": "SearchAction",
-        "target": "https://www.lmtcontinental.com/?s={search_term_string}",
-        "query-input": "required name=search_term_string"
-      }
+      "inLanguage": "id-ID"
     },
-
     {
       "@type": "SoftwareApplication",
       "@id": "https://www.lmtcontinental.com/#app",
@@ -960,7 +931,6 @@ digitalData.page.pageInfo.pageName = pageName;
         "ratingCount": "954638"
       }
     }
-
   ]
 }
 </script>
