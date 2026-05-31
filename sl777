@@ -826,7 +826,8 @@ digitalData.page.pageInfo.pageName = pageName;
           "returnPolicyCategory": "https://schema.org/MerchantReturnNotPermitted"
         }
       }
-    },
+    }
+  },
 
     {
       "@type": "ItemList",
